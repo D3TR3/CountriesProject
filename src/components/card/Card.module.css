@@ -1,0 +1,27 @@
+.countriesCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: honeydew;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+a:hover,
+a:focus {
+  color: #888;
+  transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .countriesCont {
+    flex-direction: column;
+    width: 100%;
+  }
+}

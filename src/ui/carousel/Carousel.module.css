@@ -1,0 +1,66 @@
+.carouselCont {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 600px;
+  flex-direction: column;
+}
+
+.carouselImg {
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 7px #666;
+  width: 100%;
+  height: 100%;
+}
+
+.carouselImgHidden {
+  display: none;
+}
+
+.arrow {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  color: black;
+  border-radius: 100%;
+  background-color: white;
+  filter: drop-shadow(0px 0px 5px #555);
+}
+
+.arrowLeft {
+  left: 1rem;
+  cursor: pointer;
+}
+
+.arrowRight {
+  right: 1rem;
+  cursor: pointer;
+}
+
+.indicators {
+  position: absolute;
+  bottom: 1rem;
+  display: flex;
+}
+
+.indicator {
+  background-color: white;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  box-shadow: 0px 0px 5px #555;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.indicatorInActive {
+  background-color: gray;
+}
+
+.descCont {
+  padding: 35px;
+}

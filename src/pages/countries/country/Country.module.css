@@ -1,5 +1,19 @@
-.seeMoreCont{
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
+.seeMoreCont {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.countryImg {
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: honeydew;
+  margin-top: 10px;
+  text-align: left;
 }

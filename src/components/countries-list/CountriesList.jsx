@@ -1,16 +1,12 @@
-import { NavLink } from "react-router";
-import { COUNTRIES } from "../../data/Countries"
+import Card from "../card/Card";
+import style from "./CountriesList.module.css";
 
 function CountriesList() {
-    return (
-        <>
-            {COUNTRIES.map((c,i) =>
-            <NavLink key={i} to={`/countries/${c.slug}`}>
-                {c.name}
-            </NavLink>
-            )}
-        </>
-    );
+  return (
+    <>
+      <Card />
+    </>
+  );
 }
 
 export default CountriesList;
